@@ -72,6 +72,11 @@ font-weight: 600;
 line-height: 24px; /* 150% */
 }
 
+.nav-links a:hover {
+    color: #B82631;
+}
+
+
 .cta-button {
     display: inline-flex;
     padding: 16px 20px;
@@ -97,7 +102,8 @@ line-height: 24px; /* 150% */
 }
 
 .cta-button:hover {
-    background-color: #0056b3;
+    background-color: #B82631;
+    color: #ffffff;
 }
 
  Change navbar background and link colors on scroll */
@@ -108,6 +114,7 @@ line-height: 24px; /* 150% */
 .navbar.scrolled .nav-links a {
     color: #f5f5f5;
 }
+
 
 .banner-section{
     background-image: url(BG.svg) ;
@@ -159,6 +166,10 @@ line-height: 24px; /* 150% */
         border-color: transparent;
         background: #B82631;
 
+       
+    }
+
+    .banner-section .content-1 .banner-button a{
         color: #FFF;
         text-align: right;
         font-family: Inter;
@@ -166,6 +177,7 @@ line-height: 24px; /* 150% */
         font-style: normal;
         font-weight: 600;
         line-height: 24px; /* 150% */
+        text-decoration:none;
     }
 
     .banner-section .content-2 img{
@@ -675,6 +687,19 @@ line-height: 24px; /* 150% */
         letter-spacing: -0.5px;
     }
 
+    .footer .Contact-Us .content-1 .text-Medium a{
+        color: var(--neutral-200, #E5E5E5);
+        /* Inter/Regular/20 */
+        font-family: Inter;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px; /* 160% */
+        letter-spacing: -0.5px; 
+        text-decoration:none;
+    }
+
+
     .footer .Contact-Us .Get-Quote-Button{
         display: flex;
         width: 214px;
@@ -700,6 +725,19 @@ line-height: 24px; /* 150% */
         font-style: normal;
         font-weight: 500;
         line-height: 24px; /* 150% */
+    }
+
+    .footer .Contact-Us .Get-Quote-Button a{
+        color: #FFF;
+        text-align: right;
+
+        /* Inter/Semi-bold/16px */
+        font-family: Inter;
+        font-size: px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px; /* 150% */
+        text-decoration:none;
     }
 
     .footer .footer-bottom{
